@@ -73,3 +73,23 @@ body {
     list-style-type: none;
 }
 
+.list-container h3::before {
+    content: '\25BE';
+}
+
+li >span.circle {
+    border-radius: 50%;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+
+li >span.circle.checked {
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+
+li >span.circle.unchecked {
+    border: 1px solid red;
+    color: red;
+}
+
