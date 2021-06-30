@@ -5,7 +5,10 @@
 }
 body {
     background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Sezione header */
 
 .logo {
     line-height: 80px;
@@ -21,19 +24,22 @@ body {
 .logo h1 {
     display: inline;
     vertical-align: middle;
-    font-size: 45px;
+    font-size: 38px;
 }
 
-.container {
-    width: 80%;
-    height: 100vh; /* da levare!! */
-    margin: 50px auto 10px;
+/* Sezione principale */
+
+.main-container {
+    width: 70%;
+    margin: 50px auto 20px;
     background-color: white;
     border-radius: 5px;
 }
 
+    /* Sezione Bottoni */
+
 .buttons-container {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
 }
 
 .buttons {
@@ -56,3 +62,14 @@ body {
     border: 1px solid grey;
     color: grey;
 }
+
+    /* Sezione liste */
+
+.list-container {
+    padding: 50px 70px;
+}
+
+.list-container ul {
+    list-style-type: none;
+}
+
